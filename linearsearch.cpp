@@ -33,6 +33,7 @@ int main()
     cin>>n;
     int arr[100];
     arrayCreate(arr, n);
+    
     int x;
     cin>>x;
     cout<<arraySearch(arr, n, x);
