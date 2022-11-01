@@ -1,8 +1,8 @@
-#include <iostream>
+#include <iostream>                                                               //merging 2 arrays which are already in ascending order
 
 using namespace std;
 
-void arrayCreate(int arr[], int n)
+void arrayCreate(int arr[], int n) 
 {
     int i=0;
     while (i<=n-1)
